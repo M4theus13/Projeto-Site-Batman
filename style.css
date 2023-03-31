@@ -107,3 +107,51 @@ ul {
     background-color: #fff;
     color: #000;
  }
+
+ .actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+ .cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+ }
+
+ .card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdas Thmor Pro', sans-serif;
+ }
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://www.rollingstone.fr/wp-content/uploads/2022/02/robert-pattinson-the-batman.jpeg');
+}
+
+.banner-2 {
+    background-image: url('https://pbs.twimg.com/media/FMO83fmWYAMYttY?format=jpg&name=900x900');
+}
+
+.banner-3 {
+    background-image: url('https://static.wikia.nocookie.net/batman/images/3/36/Jim_Gordon_Total_Film_still.webp/revision/latest?cb=20220220041206');
+}
