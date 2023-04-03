@@ -2,160 +2,164 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    list-style: none;
-    text-decoration: none;
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   list-style: none;
+   text-decoration: none;
 }
 
+/* cabeçalho */
 header {
-    height: 90px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+   height: 90px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 
 nav {
-    width: 60%;
+   width: 60%;
 }
 
 ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
 }
- li {
-    list-style: none;
-    color: aliceblue;
-    cursor: pointer; 
-    font-size: 19px;
-    transition: .5s;
-    font-family: 'Kdam Thmor Pro', sans-serif;
- }
 
- li:hover{
-    color: #D21617;
- }
+li {
+   list-style: none;
+   color: #fff;
+   cursor: pointer; 
+   font-size: 19px;
+   transition: .5s;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+}
 
- #logo {
-    width: 150px;
-    height: auto;
- }
+li:hover{
+   color: #D21617;
+}
 
- #banner {
-    background-image: url('https://images7.alphacoders.com/120/1207353.jpg');
-    background-position: 50% 50%;
-    background-size: cover; /* para oculpar todo espaço da div */
-    width: 100%;
-    height: 600px;
- }
+#logo {
+   width: 150px;
+   height: auto;
+}
 
- #trailer-container {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
- }
+/* corpo */
+#banner {
+   background-image: url('https://images7.alphacoders.com/120/1207353.jpg');
+   background-position: 50% 50%;
+   background-size: cover; /* para oculpar todo espaço da div */
+   width: 100%;
+   height: 600px;
+}
 
- .content {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- }
+#trailer-container {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+}
 
- .trailer {
-    width: 50%;
- }
+.content {
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
- #sinopse {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 30px;
- }
+.trailer {
+   width: 50%;
+}
 
- .description {
-    color: #fff;
-    font-size: 19px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    width: 70%;  
- }
+#sinopse {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 30px;
+}
 
- .button {
-    width: 200px;
-    height: 60px;
-    background-color: #D21617;
-    color: #fff;
-    padding: 8px 10px;
-    border-radius: 5px;
-    cursor: pointer; 
-    transition: .8s;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold; /* tira a borda ao  */
-    border: none; /* tira a borda ao  */
-    outline: none; /* tira a borda ao  */
-    margin-top: 25px;
- }
+.description {
+   color: #fff;
+   font-size: 19px;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+   width: 70%;  
+}
 
- .button:hover {
-    background-color: #fff;
-    color: #000;
- }
+.button {
+   width: 200px;
+   height: 60px;
+   background-color: #D21617;
+   color: #fff;
+   padding: 8px 10px;
+   border-radius: 5px;
+   cursor: pointer; 
+   transition: .8s;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold; /* tira a borda ao  */
+   border: none; /* tira a borda ao  */
+   outline: none; /* tira a borda ao  */
+   margin-top: 25px;
+}
 
- .actor-cards-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
- }
+.button:hover {
+   background-color: #fff;
+   color: #000;
+}
 
- .cards-content {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 40px;
- }
+.actor-cards-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
 
- .card {
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 0 20px 10px;
-    color: #fff;
-    font-size: 17px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
- }
+.cards-content {
+   width: 90%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   row-gap: 20px;
+   column-gap: 40px;
+}
+
+.card {
+   width: 100%;
+   height: 600px;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 1s;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 0 0 20px 10px;
+   color: #fff;
+   font-size: 17px;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+}
 
 .card:hover {
-    transform: scale(1.02);
+   transform: scale(1.02);
 }
 
 .banner-1 {
-    background-image: url('https://www.rollingstone.fr/wp-content/uploads/2022/02/robert-pattinson-the-batman.jpeg');
+   background-image: url('https://www.rollingstone.fr/wp-content/uploads/2022/02/robert-pattinson-the-batman.jpeg');
 }
 
 .banner-2 {
-    background-image: url('https://pbs.twimg.com/media/FMO83fmWYAMYttY?format=jpg&name=900x900');
+   background-image: url('https://pbs.twimg.com/media/FMO83fmWYAMYttY?format=jpg&name=900x900');
 }
 
 .banner-3 {
-    background-image: url('https://static.wikia.nocookie.net/batman/images/3/36/Jim_Gordon_Total_Film_still.webp/revision/latest?cb=20220220041206');
+   background-image: url('https://static.wikia.nocookie.net/batman/images/3/36/Jim_Gordon_Total_Film_still.webp/revision/latest?cb=20220220041206');
 }
 
+/* rodapé */
 footer {
    height: 300px;
    margin-top: 50px;
@@ -192,6 +196,7 @@ span {
    #banner {
       background-position: 0%;
    }
+   
    #trailer-container {
       width: 100%;
       height: 400px;
@@ -229,5 +234,4 @@ span {
       grid-template-columns: 1fr;
       margin-top: 150px;
    }
-
 }
