@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer; 
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.caixa-fotos {
+    width: auto;
+    height: 100vh;
+    padding: 10px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+.fotos {
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.fotos:hover {
+    transform: scale(1.02);
+}
+
+#foto1 {
+    background-image: url(https://rollingstone.uol.com.br/media/uploads/the-batman-robert-pattinson-filme-oscar-foto-divulgacao-warner-bros.jpg);
+    background-size: cover;
+}
+
+#foto2 {
+    background-image: url(https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg);
+    background-size: cover;
+}
+
+#foto3 {
+    background-image: url(https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2022/03/01/the-batman-critica-filme-robert-pattinson.jpeg);
+    background-size: cover;
+}
+
+#foto4 {
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3148797:1634420706/the-batman.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=a5bfefb);
+    background-size: cover;
+}
+
+#foto5 {
+    background-image: url(https://i.uai.com.br/zmRCCLXG7caTumiFKvzNdK09970=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2023/01/24/316317/imagem_2_25948.jpg);
+    background-size: cover;
+}
+
+#foto6 {
+    background-image: url(https://bahiasocialvip.com.br/wp-content/uploads/2022/03/i518499_Easy-Resize.com_.jpg);
+    background-size: cover;
+}
+
+#foto7 {
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2021/12/The_Batman_Robert_Pattinson-1536x864-1.png);
+    background-size: cover;
+}
+
+#foto8 {
+    background-image: url(https://universoheroico.com.br/wp-content/uploads/2022/01/Imagem-do-filme-The-Batman-com-Robert-Pattinson.jpg);
+    background-size: cover;
+}
+
+#foto9 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/jeffrey-wright-as-james-gordon-robert-pattinson-batman-in-the-batman-1645187111.jpg?crop=0.787xw:0.864xh;0.168xw,0.136xh&resize=1200:*);
+    background-size: cover;
+}
+
+footer {
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #000;
+}
+
+span {
+   color: #fff;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+   display: none;
+}
+
+.footer-list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media (max-width: 768px){
+    .caixa-fotos {
+     grid-template-columns: repeat(1, 1fr);
+     height: 100%;
+    }
+ 
+    .fotos {
+     background-size: cover;
+     height: 175px;
+    }
+
+   .footer-navigation{
+      display: block;
+   }
+
+   nav {
+      display: none;
+   }
+}
