@@ -1,6 +1,9 @@
-<h4 align="center"> 
-    :construction:  Projeto em Desenvolvimento  :construction:
-</h4>
+<h3 align="center"> 
+    :heavy_check_mark:  Site Finalizado  :heavy_check_mark:
+</h3>
+
+O site esta hospedado no servidor gratuito brasileiro da https://bohr.io <br>
+Link do site: https://first-project-theus.bohr.io/index.html
 
 # Projeto_Site_Batman
 Primeiro Projeto Pratico do Curso Profissão Programador, Professor Paulo Victor Borges.
