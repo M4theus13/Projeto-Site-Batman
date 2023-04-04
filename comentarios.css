@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;   
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer; 
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    background-image: url(https://images.alphacoders.com/109/1099891.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.comentarios {
+    width: 100%;
+    height: max-content;
+    margin: 50px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+}
+
+.avaliacao {
+    height: 470px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    align-content:start ;
+}
+
+.caixa-imagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagem {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.usuario{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.nota {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.texto {
+    padding: 15px;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+ }
+ 
+ span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+ 
+ .footer-navigation {
+    display: none;
+ }
+ 
+ .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ @media (max-width: 1024px){
+    .comentarios {
+        grid-template-columns: repeat( 2, 1fr );
+    }
+ }
+
+ @media (max-width: 768px){
+    .comentarios {
+        grid-template-columns: 1fr;
+    }
+
+   .footer-navigation{
+      display: block;
+   }
+
+   nav {
+      display: none;
+   }
+}
