@@ -25,3 +25,7 @@ Sobre o curso: https://beacons.ai/profissaoprogramador
     <img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Projeto_Site_Batman_Prints/pag2.png">
     <img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Projeto_Site_Batman_Prints/pag3.png">
 </div>
+
+<h1 align="center"> ⚙ Tecnologias </h1>
+
+<p align="center"> 🟠HTML<br/> 🔵CSS<br/> ⚫Github</p>
